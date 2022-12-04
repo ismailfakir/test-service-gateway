@@ -1,0 +1,18 @@
+package net.cloudcentrik.autolink.testservicegateway;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@SpringBootApplication
+//@EnableDiscoveryClient
+public class TestServiceGatewayApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TestServiceGatewayApplication.class, args);
+	}
+
+}
+
+
+

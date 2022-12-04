@@ -1,0 +1,9 @@
+resilience4j.circuitbreaker:
+  instances:
+    customer-service:
+      failureRateThreshold: 50
+      minimumNumberOfCalls: 10
+      slidingWindowType: TIME_BASED
+      slidingWindowSize: 10
+      waitDurationInOpenState: 50s
+      permittedNumberOfCallsInHalfOpenState: 3
